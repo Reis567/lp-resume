@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
   
   body::-webkit-scrollbar-thumb {
     background-color: var(--brown);
-    border-radius: 8px;
+    border-radius: 3px;
   }
   
   /* Personalização da barra de rolagem para navegadores Gecko (Firefox) */
@@ -61,6 +61,23 @@ header nav{
 header nav a{
     color: var(--white);
     font-weight: 800;
+    position: relative;
+    
+}
+
+header nav a::after{
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 2px;
+    background: var(--white);
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+
+}
+header nav a:hover::after{
+    width: 100%;
 }
 
 
@@ -163,7 +180,7 @@ ul.social-icons{
     font-size: 30px;
 }
 .sobre-myintrod .segundo{
-    font-size: 80px;
+    font-size: 85px;
 }
 .sobre-myintrod .terceiro{
     font-size: 40px;
