@@ -1,6 +1,102 @@
+:root{
+    --white:#fff;
+    --black:#000000;
+}
+
 body{
     font-family: 'Vollkorn', serif;
 }
+
+.sect-inicio{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+ul.social-icons{
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.social-icons .linkedin{
+    margin: 10px 0;
+}
+.social-icons .linkedin a{
+    color: var(--white);
+    height: 60px;
+    line-height: 60px;
+    display: flex;
+}
+
+.social-icons .linkedin a span:nth-child(2){
+    background: #1877f2;
+    width: 60px;
+    height: 100%;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+}
+.social-icons .linkedin a span:nth-child(1){
+    width: 0;
+    height: 100%;
+    background: #1877f2;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-left: 0;
+    letter-spacing: 2px;
+    overflow: hidden;
+    margin-right: 5px;
+    border-radius: 0 50px 50px 0;
+    transition: 0.3s ease-in-out;
+
+}
+.social-icons .linkedin a:hover span:nth-child(1){
+    width: 180px;
+    padding-left: 20px;
+}
+
+.social-icons .github{
+    margin: 10px 0;
+}
+.social-icons .github a{
+    color: var(--white);
+    height: 60px;
+    line-height: 60px;
+    display: flex;
+}
+
+.social-icons .github a span:nth-child(2){
+    background: var(--black);
+    width: 60px;
+    height: 100%;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+}
+.social-icons .github a span:nth-child(1){
+    width: 0;
+    height: 100%;
+    background: var(--black);
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-left: 0;
+    letter-spacing: 2px;
+    overflow: hidden;
+    margin-right: 5px;
+    border-radius: 0 50px 50px 0;
+    transition: 0.3s ease-in-out;
+
+}
+.social-icons .github a:hover span:nth-child(1){
+    width: 180px;
+    padding-left: 20px;
+}
+
+
+
 
 .first-img{
     border-radius: 50%;
