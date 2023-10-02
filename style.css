@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
 header{
     width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 80px;
     background: var(--brown);
@@ -37,7 +37,30 @@ header{
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px; /* Raio de canto inferior esquerdo */
+    border-bottom-right-radius: 20px; /* Raio de canto inferior direito */
 
+}
+
+header h1{
+    margin-left: 40px;
+}
+header h1 a{
+    color: var(--white);
+}
+header nav{
+    display: flex;
+    margin-right: 40px;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+}
+header nav a{
+    color: var(--white);
+    font-weight: 900;
 }
 
 .sect-inicio{
