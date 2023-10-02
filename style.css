@@ -1,5 +1,5 @@
 :root{
-    --white:#f4ede7;
+    --white:#f7f2ee;
     --black:#000000;
     --brown:#341d08;
 }
@@ -63,12 +63,7 @@ header nav a{
     font-weight: 800;
 }
 
-.sect-inicio{
-    margin-top: 80px;
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-}
+
 ul.social-icons{
     position: absolute;
     left: 0;
@@ -85,7 +80,7 @@ ul.social-icons{
 }
 
 .social-icons .linkedin a span:nth-child(2){
-    background: #1877f2;
+    background: var(--brown);
     width: 60px;
     height: 100%;
     border-radius: 50%;
@@ -96,7 +91,7 @@ ul.social-icons{
 .social-icons .linkedin a span:nth-child(1){
     width: 0;
     height: 100%;
-    background: #1877f2;
+    background: var(--brown);
     font-size: 18px;
     font-weight: 900;
     text-transform: uppercase;
@@ -124,7 +119,7 @@ ul.social-icons{
 }
 
 .social-icons .github a span:nth-child(2){
-    background: var(--black);
+    background: var(--brown);
     width: 60px;
     height: 100%;
     border-radius: 50%;
@@ -135,7 +130,7 @@ ul.social-icons{
 .social-icons .github a span:nth-child(1){
     width: 0;
     height: 100%;
-    background: var(--black);
+    background: var(--brown);
     font-size: 18px;
     font-weight: 900;
     text-transform: uppercase;
@@ -151,8 +146,41 @@ ul.social-icons{
     width: 180px;
     padding-left: 20px;
 }
+.sect-inicio{
+    position: relative;
+    height: 100vh;
+    width: 100%;
 
-
+}
+.inicio-content{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sobre-myintrod .primeiro{
+    font-size: 30px;
+}
+.sobre-myintrod .segundo{
+    font-size: 80px;
+}
+.sobre-myintrod .terceiro{
+    font-size: 40px;
+}
+.sobre-btns{
+    margin-top: 40px;
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+.sobre-btns button{
+    padding: 15px;
+    background: var(--brown);
+    border-radius: 25px;
+    color: var(--white);
+    font-weight: 800;
+}
 
 
 .first-img{
