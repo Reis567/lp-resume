@@ -1,13 +1,47 @@
 :root{
-    --white:#fff;
+    --white:#f4ede7;
     --black:#000000;
+    --brown:#341d08;
 }
 
 body{
     font-family: 'Vollkorn', serif;
+    width: 100vw;
+    overflow-x: hidden;
+    
+}
+body::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--brown);
+    border-radius: 8px;
+  }
+  
+  /* Personalização da barra de rolagem para navegadores Gecko (Firefox) */
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--brown); 
+}
+
+header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background: var(--brown);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+
 }
 
 .sect-inicio{
+    margin-top: 80px;
     position: relative;
     height: 100vh;
     width: 100vw;
