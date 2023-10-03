@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-Br">
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">    <meta charset="UTF-8">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reis567</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/script.js" defer></script>
     <script src="https://kit.fontawesome.com/127269bf17.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 </head>
+
 <body>
     <header>
         <h1>
@@ -30,7 +37,7 @@
                 </a>
             </h3>
             <h3>
-                <a href="#">
+                <a href="#sect-projetos">
                     Projetos
                 </a>
             </h3>
@@ -46,7 +53,7 @@
             <div class="inicio-text">
 
                 <div class="inicio-myintrod">
-                    
+
                     <h3 class="primeiro">
                         Olá, sou
                     </h3>
@@ -66,14 +73,14 @@
                         </a>
                     </div>
                 </div>
-    
-                
+
+
             </div>
             <div class="img-sect1">
                 <img class="first-img" src="./imgs/gerais/desenho.png" alt="">
             </div>
         </div>
-        
+
         <ul class="social-icons">
             <li class="github">
                 <a target="_blank" href="https://github.com/Reis567">
@@ -85,25 +92,25 @@
                         <i class="fa-brands fa-github"></i>
                     </span>
                 </a>
-                
+
             </li>
             <li class="linkedin">
                 <a target="_blank" href="https://www.linkedin.com/in/matheus-dos-reis-08b74b1a4/">
                     <span>
                         Linkedin
                     </span>
-                    
+
                     <span>
                         <i class="fa-brands fa-linkedin"></i>
                     </span>
                 </a>
-                
+
             </li>
         </ul>
-        
+
     </section>
     <section class="sect-sobre" id="sect-sobre">
-        
+
 
         <div class="sobre-content">
             <div class="sobre-img ">
@@ -118,12 +125,13 @@
                     <p>
                         Sou um programador apaixonado por aprender e viciado em desafios. Atualmente,
                         estou cursando Análise e Desenvolvimento de Sistemas na UNIASSELVI, e tenho me
-                        dedicado ao desenvolvimento de sistemas web em <span>Python</span> com <span>Django</span>. 
+                        dedicado ao desenvolvimento de sistemas web em <span>Python</span> com <span>Django</span>.
                         <br>
                         <br>
                         Tenho explorado recursos como autenticação de usuários, manipulação de dados em
                         bancos de dados relacionais e criação de API's. Além disso, possuo habilidades em
-                        front-end com <span>HTML</span>, <span>CSS</span> e <span>JS</span>, e utilizo o Git e o Github para versionamento de código.
+                        front-end com <span>HTML</span>, <span>CSS</span> e <span>JS</span>, e utilizo o Git e o Github
+                        para versionamento de código.
                         <br>
                         <br>
                         Tenho conhecimento em gerenciamento de bancos de dados com <span>MySQL</span> e
@@ -137,7 +145,7 @@
                         permite criar e implantar ambientes de desenvolvimento de forma eficiente. Estou
                         entusiasmado para enfrentar novos desafios e continuar meu crescimento como
                         desenvolvedor, buscando sempre a excelência na área.
-                        
+
                     </p>
                 </div>
 
@@ -146,30 +154,76 @@
     </section>
     <section class="sect-projetos" id="sect-projetos">
         <div class="projetos-content">
-            <div class="projetos-full">
-                <div class="full-title">
-                    Full-stack
-                </div>
-                <div class="full-cards">
+
+            <div class="projetos-title">
+                <h1>
+                    Meus projetos
+                </h1>
+
+            </div>
+            <div class="projetos-cards">
+                <div class="card">
+
+                    <div class="card-img">
+                        <img src="./imgs/projetos/chat.PNG" alt="">
+                    </div>
+
+                    <div class="card-body">
+                        <div class="body-desc">
+                            <p>
+                                Salas de chat de comunicação simultânea com Django channels e Websocket (Js)
+                            </p>
+                        </div>
+                        <div class="body-btn">
+                            <a href="#">Ver Código</a>
+                        </div>
+                    </div>
 
                 </div>
-            </div>
-            <div class="projetos-front">
-                <div class="front-title">
-                    Front-end
-                </div>
-                <div class="front-cards">
+
+                <div class="card">
+
+                    <div class="card-img">
+                        <img src="./imgs/projetos/chat.PNG" alt="">
+                    </div>
+
+                    <div class="card-body">
+                        <div class="body-desc">
+                            <p>
+                                Salas de chat de comunicação simultânea com Django channels e Websocket (Js)
+                            </p>
+                        </div>
+                        <div class="body-btn">
+                            <a href="#">Ver Código</a>
+                        </div>
+                    </div>
 
                 </div>
-            </div>
-            <div class="projetos-others">
-                <div class="others-title">
-                    Outros
-                </div>
-                <div class="others-cards">
+
+
+                <div class="card">
+
+                    <div class="card-img">
+                        <img src="./imgs/projetos/chat.PNG" alt="">
+                    </div>
+
+                    <div class="card-body">
+                        <div class="body-desc">
+                            <p>
+                                Salas de chat de comunicação simultânea com Django channels e Websocket (Js)
+                            </p>
+                        </div>
+                        <div class="body-btn">
+                            <a href="#">Ver Código</a>
+                        </div>
+                    </div>
 
                 </div>
+
             </div>
+
+
+        </div>
         </div>
     </section>
     <section class="sect-contatos" id="sect-contatos">
@@ -182,7 +236,7 @@
                 </div>
                 <div class="github-url">
                     <span>
-                        
+
                     </span>
                 </div>
             </div>
@@ -194,7 +248,7 @@
                 </div>
                 <div class="linkedin-url">
                     <span>
-                        
+
                     </span>
                 </div>
             </div>
@@ -206,7 +260,7 @@
                 </div>
                 <div class="email-url">
                     <span>
-                        
+
                     </span>
                 </div>
             </div>
@@ -218,7 +272,7 @@
                 </div>
                 <div class="codepen-url">
                     <span>
-                        
+
                     </span>
                 </div>
             </div>
@@ -230,5 +284,13 @@
     <div class="division2">
 
     </div>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </body>
+
 </html>
