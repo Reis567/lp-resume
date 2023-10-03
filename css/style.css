@@ -39,6 +39,17 @@ body{
     box-shadow: 1px 0 5px var(--black);
 }
 
+.division3{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 299vh;
+    background: var(--brown);
+    border-radius: 10px;
+    box-shadow: inset 1px 0 10px var(--black);
+    box-shadow: 1px 0 5px var(--black);
+}
+
 body::-webkit-scrollbar {
     width: 15px;
   }
