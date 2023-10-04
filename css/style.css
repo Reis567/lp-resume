@@ -465,5 +465,43 @@ ul.social-icons{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.contatos-title{
+    font-size: 50px;
+}
+
+.contatos-github{
+    display: flex;
+}
+
+.github-icon{
+    padding: 15px;
+    color: var(--white);
+    border-radius: 15px;
+    background: var(--brown);
+    font-size: 30px;
+    margin-right: 20px;
+}
+.github-url{
+    padding: 15px 25px;
+    border-radius: 15px;
+    background: var(--brown);
+    color: var(--white);
+    font-size: 30px;
+}
+.github-url a{
+    color: var(--white);
+}
+
+.contatos-linkedin{
+    display: flex;
+}
+.contatos-email{
+    display: flex;
+}
+.contatos-codepen{
+    display: flex;
 }
