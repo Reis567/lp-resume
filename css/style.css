@@ -723,9 +723,11 @@ ul.social-icons{
 
 
 @media (max-width:750px){
-    .sect-sobre {
+
+    .name a::after{
         display: none;
-      }
+    }
+
       .sect-projetos {
         display: none;
       }
@@ -789,6 +791,7 @@ ul.social-icons{
     .nav.active .nav-list {
         clip-path: circle(1500px at 90% -15%);
         pointer-events: all;
+        
       }
       .nav-list a {
         font-size: 24px;
@@ -858,8 +861,40 @@ ul.social-icons{
     }
     .inicio-btns a {
         padding: 20px;
+        font-size: 15px;
         
     }
+    .sobre-img {
+        display: none;
+    }
+
+    .sect-sobre{
+        height: 150vh;
+    }
     
+    .sobre-content{
+        height: 150vh;
+        padding: 20px;
+    }
+    .sobre-text{
+        width: 100%;
+    }
+    .sobre-title{
+        font-size: 45px;
+    }
+    .sobre-body{
+        font-size: 17px;
+        padding: 15px;
+        line-height: 20px;
+    }
+
+    .sobre-body span{
+        font-weight: 800;
+
+    }
+    .division2{
+        top: 249vh;
+    }
+        
 
 }
