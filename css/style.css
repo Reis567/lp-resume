@@ -853,8 +853,9 @@ ul.social-icons{
         justify-content: space-around;
     }
     .inicio-btns a {
-        padding: 20px;
+        padding: 15px;
         font-size: 15px;
+        text-align: center;
         
     }
     .sobre-img {
@@ -908,7 +909,7 @@ ul.social-icons{
         justify-content: space-evenly;
     }
     .projetos-title{
-        margin-top: 0;
+        margin-top: 30px;
         font-size: 25px;
     }
 
