@@ -99,6 +99,7 @@ body::-webkit-scrollbar {
     border-top-right-radius: 0;
     border-bottom-left-radius: 20px; /* Raio de canto inferior esquerdo */
     border-bottom-right-radius: 20px; /* Raio de canto inferior direito */
+    z-index: 2;
 
 }
 
@@ -125,7 +126,7 @@ body::-webkit-scrollbar {
     width: 60%;
     margin-left: 40px;
 }
-.header nav a{
+.nav-list a{
     color: var(--white);
     font-weight: 800;
     position: relative;
@@ -722,7 +723,13 @@ ul.social-icons{
 
 
 @media (max-width:750px){
-    section {
+    .sect-sobre {
+        display: none;
+      }
+      .sect-projetos {
+        display: none;
+      }
+     .sect-contatos {
         display: none;
       }
     .hamburguer{
@@ -753,6 +760,7 @@ ul.social-icons{
         width: 100vw;
         top: 0;
         left: 0;
+        z-index: 2;
         
         transform: none;
         border-top-left-radius: 0;
@@ -817,4 +825,41 @@ ul.social-icons{
       .nav.active .hamburguer::before{
         transform: rotate(135deg);
       }
+
+      .arrow-up a{
+        bottom: 1rem;
+        right: 2rem;
+      }
+
+      .social-icons{
+        display: none;
+      }
+
+    .first-img{
+        display: none;
+    }
+
+
+    .inicio-text{
+        padding: 15px;
+    }
+    .inicio-myintrod .primeiro{
+        font-size: 25px;
+    }
+    .inicio-myintrod .segundo{
+        font-size: 40px;
+    }
+    .inicio-myintrod .terceiro{
+        font-size: 30px;
+    }
+    .inicio-btns{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .inicio-btns a {
+        padding: 20px;
+        
+    }
+    
+
 }
