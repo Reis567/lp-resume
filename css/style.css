@@ -164,6 +164,8 @@ body::-webkit-scrollbar {
     height: 3px;
     background: var(--white);
     margin-top: 5px;
+    position: relative;
+    transition: 0.3s ease-in-out;
 }
 
 ul.social-icons{
@@ -803,5 +805,16 @@ ul.social-icons{
         transition: 0.5s 0.8s;
       }
 
-    
+      
+      .nav.active .hamburguer{
+        border-top-color: transparent;
+      }
+
+      .nav.active .hamburguer::after{
+        transform: rotate(-135deg);
+        top: -7px;
+      }
+      .nav.active .hamburguer::before{
+        transform: rotate(135deg);
+      }
 }
