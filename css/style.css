@@ -945,6 +945,82 @@ ul.social-icons{
     }
 
 
+    
+
+
+.contatos-links{
+    width: 100%;
+    padding: 12px;
+}
+
+.contatos-title{
+    font-size: 30px;
+}
+
+
+.github-icon{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 8px;
+}
+.github-url a{
+    padding: 10px 16px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+
+
+
+
+.linkedin-icon{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.linkedin-url a{
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-size: 10px;
+
+}
+
+
+
+
+
+
+.email-icon{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.email-url a{
+    padding: 10px 16px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+
+
+.codepen-icon{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.codepen-url a{
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    position: relative;
+}
+
         
 
 }
