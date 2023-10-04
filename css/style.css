@@ -469,6 +469,15 @@ ul.social-icons{
     flex-direction: column;
 }
 
+.contatos-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 60%;
+    width: 50%;
+}
+
 .contatos-title{
     font-size: 50px;
 }
@@ -499,6 +508,27 @@ ul.social-icons{
 .contatos-linkedin{
     display: flex;
 }
+
+.linkedin-icon{
+    padding: 15px;
+    color: var(--white);
+    border-radius: 15px;
+    background: var(--brown);
+    font-size: 30px;
+    margin-right: 20px;
+}
+.linkedin-url{
+    padding: 15px 25px;
+    border-radius: 15px;
+    background: var(--brown);
+    color: var(--white);
+    font-size: 30px;
+}
+.linkedin-url a{
+    color: var(--white);
+}
+
+
 .contatos-email{
     display: flex;
 }
