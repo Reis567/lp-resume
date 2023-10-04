@@ -15,6 +15,19 @@ body{
 
     
 }
+
+.arrow-up a{
+    color: var(--brown);
+    font-size: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 2rem;
+    transition: .3s ease-in-out;
+}
+.arrow-up a:hover{
+    color: var(--black);
+}
+
 .division1{
     width: 88%;
     height: 20px;
