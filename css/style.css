@@ -727,13 +727,6 @@ ul.social-icons{
     .name a::after{
         display: none;
     }
-
-      .sect-projetos {
-        display: none;
-      }
-     .sect-contatos {
-        display: none;
-      }
     .hamburguer{
         display: block;
         z-index: 1;
@@ -895,6 +888,63 @@ ul.social-icons{
     .division2{
         top: 249vh;
     }
+
+    .division3{
+        top: 1149vh;
+    }
+
+
+        
+    .sect-projetos{
+        height: 900vh;
+        width: 100%;
+    }
+    .projetos-content{
+        height: 900vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .projetos-title{
+        margin-top: 0;
+        font-size: 25px;
+    }
+
+
+    .btn-vermais{
+        margin-top: 0;
+
+    }
+
+
+    .projetos-cards{
+        width: 100%;
+        height: 95%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 5px;
+        padding: 30px;
+    }
+    .card{
+        width: 100%;
+    }
+    .body-desc{
+        font-size: 16px;
+    }
+
+    .body-btn{
+        margin-top: 25px;
+
+    }
+    .body-btn a {
+        padding: 15px;
+        font-size: 15px;
+        
+    }
+
+
         
 
 }
