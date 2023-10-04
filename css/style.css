@@ -465,7 +465,7 @@ ul.social-icons{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -484,6 +484,8 @@ ul.social-icons{
 
 .contatos-github{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .github-icon{
@@ -494,19 +496,19 @@ ul.social-icons{
     font-size: 30px;
     margin-right: 20px;
 }
-.github-url{
+.github-url a{
+    color: var(--white);
     padding: 15px 25px;
     border-radius: 15px;
     background: var(--brown);
     color: var(--white);
     font-size: 30px;
 }
-.github-url a{
-    color: var(--white);
-}
 
 .contatos-linkedin{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .linkedin-icon{
@@ -517,21 +519,65 @@ ul.social-icons{
     font-size: 30px;
     margin-right: 20px;
 }
-.linkedin-url{
+
+.linkedin-url a{
+    color: var(--white);
     padding: 15px 25px;
     border-radius: 15px;
     background: var(--brown);
     color: var(--white);
     font-size: 30px;
 }
-.linkedin-url a{
-    color: var(--white);
-}
 
 
 .contatos-email{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.email-icon{
+    padding: 15px;
+    color: var(--white);
+    border-radius: 15px;
+    background: var(--brown);
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.email-url a{
+    color: var(--white);
+    padding: 15px 25px;
+    border-radius: 15px;
+    background: var(--brown);
+    color: var(--white);
+    font-size: 30px;
+}
+
+
+
+
 .contatos-codepen{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.codepen-icon{
+    padding: 15px;
+    color: var(--white);
+    border-radius: 15px;
+    background: var(--brown);
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.codepen-url a{
+    color: var(--white);
+    padding: 15px 25px;
+    border-radius: 15px;
+    background: var(--brown);
+    color: var(--white);
+    font-size: 30px;
 }
