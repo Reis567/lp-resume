@@ -145,6 +145,9 @@ body::-webkit-scrollbar {
     transition: 0.3s ease-in-out;
 
 }
+.name a::after{
+    display: none;
+}
 .header nav a:hover::after{
     width: 100%;
 }
