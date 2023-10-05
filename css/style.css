@@ -1024,3 +1024,76 @@ ul.social-icons{
         
 
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+    .first-img{
+        max-height: 400px;
+    }
+    .inicio-myintrod .primeiro{
+        font-size: 30px;
+    }
+    .inicio-myintrod .segundo{
+        font-size: 65px;
+    }
+    .inicio-myintrod .terceiro{
+        font-size: 30px;
+    }
+    
+    .sobre-img img{
+        max-height: 300px;
+    }
+    .sobre-text{
+        width: 60%;
+    }
+    .sobre-title{
+        font-size: 45px;
+    }
+    .sobre-body{
+        font-size: 18px;
+    }
+    
+    .sect-projetos{
+        height: 300vh;
+    }
+    .projetos-content{
+        height: 300vh;
+
+    }
+    .projetos-title{
+        font-size: 40px;
+    }
+
+    .projetos-cards{
+
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    }
+    .card{
+        width: 90%;
+    }
+    .division3{
+        top: 499vh;
+    }
+    
+
+    .contatos-links{
+        width: 65%;
+    }
+
+
+    .linkedin-url a{
+        font-size: 20px;
+    }
+
+
+
+
+
+    
+  }
+  
+
+  @media screen and (min-width: 768px) and (max-width: 1200px) and (orientation: portrait) {
+    /* Estilos para tablets em modo retrato */
+  }
+  
