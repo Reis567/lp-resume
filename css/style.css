@@ -1183,3 +1183,130 @@ ul.social-icons{
 
   }
   
+
+  
+@media screen and (min-width: 768px) and (max-width: 1050px) and (orientation: landscape) {
+    .first-img{
+        max-height: 300px;
+    }
+
+    
+    .sobre-img img{
+        max-height: 250px;
+    }
+    .sobre-body{
+        font-size: 17px;
+    }
+    
+    .sect-projetos{
+        height: 300vh;
+    }
+    .projetos-content{
+        height: 300vh;
+        justify-content: space-evenly;
+
+    }
+    .card{
+        width: 90%;
+    }
+    .division3{
+        top: 499vh;
+    }
+    
+
+    .contatos-links{
+        width: 65%;
+    }
+
+
+    .linkedin-url a{
+        font-size: 17px;
+    }
+
+    .arrow-up a{
+        bottom: 2rem;
+        right: 5rem;
+    }
+
+
+
+
+
+    
+  }
+  
+
+  @media screen and (min-width: 768px) and (max-width: 1050px) and (orientation: portrait) {
+
+    .arrow-up{
+        right: 5rem;
+        bottom: 3rem;
+    }
+    .name{
+        font-size: 22px;
+    }
+    .nav-list{
+        font-size: 15px;
+    }
+    .first-img{
+        max-height: 300px;
+
+    }
+
+    .inicio-myintrod .primeiro{
+        font-size: 25px;
+    }
+    .inicio-myintrod .segundo{
+        font-size: 50px;
+    }
+    .inicio-myintrod .terceiro{
+        font-size: 30px;
+    }
+    .inicio-btns{
+        width: 80%;
+    }
+    .inicio-btns a {
+        text-align: center;
+        
+    }
+    ul.social-icons{
+        top: 70%;
+    }
+
+    
+    .sobre-img img{
+        max-height: 230px;
+    }
+    .sobre-title{
+        font-size: 45px;
+    }
+    .sobre-body{
+        font-size: 15px;
+    }
+
+        
+    .sect-projetos{
+        height: 350vh;
+    }
+    .projetos-content{
+        height: 350vh;
+        justify-content: space-evenly;
+    }
+    .projetos-title{
+        margin-top: 0px;
+        font-size: 40px;
+    }
+
+    .projetos-cards{
+        grid-template-columns: repeat(auto-fill, minmax(280px, 330px));
+    }
+    .division3{
+        top: 549vh;
+    }
+
+    .linkedin-url a{
+        font-size: 18px;
+    }
+
+  }
+  
