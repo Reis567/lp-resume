@@ -1061,6 +1061,7 @@ ul.social-icons{
     }
     .projetos-content{
         height: 300vh;
+        justify-content: space-evenly;
 
     }
     .projetos-title{
