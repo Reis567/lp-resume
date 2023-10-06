@@ -1028,7 +1028,7 @@ ul.social-icons{
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
     .first-img{
         max-height: 400px;
     }
