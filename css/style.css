@@ -333,7 +333,7 @@ ul.social-icons{
 .sect-sobre{
 
     height: 100vh;
-    width: 100%;
+    width: 100%;    
 }
 .xp-prof{
     font-size: 30px;
@@ -843,6 +843,10 @@ ul.social-icons{
     .first-img{
         display: none;
     }
+    .sect-inicio{
+        height: 100vh;
+    
+    }
 
 
     .inicio-text{
@@ -873,6 +877,9 @@ ul.social-icons{
 
     .sect-sobre{
         height: 200vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     .sobre-content{
@@ -895,12 +902,18 @@ ul.social-icons{
         font-weight: 800;
 
     }
+
+    .division1{
+        top: 99vh;
+    
+    
+    }
     .division2{
         top: 299vh;
     }
 
     .division3{
-        top: 1149vh;
+        top: 1199vh;
     }
 
 
