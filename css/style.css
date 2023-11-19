@@ -335,6 +335,12 @@ ul.social-icons{
     height: 100vh;
     width: 100%;
 }
+.xp-prof{
+    font-size: 30px;
+}
+.xp-prof p{
+    font-weight: normal;
+}
 .sobre-content{
     height: 100vh;
     width: 100%;
@@ -866,7 +872,7 @@ ul.social-icons{
     }
 
     .sect-sobre{
-        height: 150vh;
+        height: 200vh;
     }
     
     .sobre-content{
@@ -880,7 +886,7 @@ ul.social-icons{
         font-size: 45px;
     }
     .sobre-body{
-        font-size: 17px;
+        font-size: 15px;
         padding: 15px;
         line-height: 20px;
     }
@@ -890,7 +896,7 @@ ul.social-icons{
 
     }
     .division2{
-        top: 249vh;
+        top: 299vh;
     }
 
     .division3{
@@ -902,6 +908,7 @@ ul.social-icons{
     .sect-projetos{
         height: 900vh;
         width: 100%;
+        text-align: center;
     }
     .projetos-content{
         height: 900vh;
